@@ -20,5 +20,5 @@ def main(time):
     click.echo("{h}:{m}:{s}".format(
         h=int(hours_part),
         m=int(minutes_part),
-        s=int(seconds_part)
+        s=int(seconds_part),
     ))
