@@ -6,10 +6,10 @@ import click
 
 
 @click.command()
-@click.argument('t', required=True)
-def main(t):
+@click.argument('time', required=True)
+def main(time):
     """Converts a decimal to minutes."""
-    time_hours = Decimal(t)
+    time_hours = Decimal(time)
     time_minutes = time_hours * 60
     time_seconds = time_minutes * 60
 
